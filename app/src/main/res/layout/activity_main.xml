@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFAEB"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/enriqueta"
+        android:gravity="center"
+        android:text="@string/welcome_to_the_charity_app"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#3E5724"
+        android:textSize="20sp" />
+
+   <ImageView
+       android:layout_width="250dp"
+       android:layout_height="330dp"
+       android:layout_marginTop="40dp"
+       android:layout_gravity="center_horizontal"
+       android:src="@drawable/images"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/donate"
+        android:textColor="#FAF4C4"
+        android:textSize="16sp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_account_balance_24"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

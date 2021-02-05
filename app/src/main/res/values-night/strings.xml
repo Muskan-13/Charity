@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pay_now">PAY NOW</string>
+    <string name="_500">500</string>
+    <string name="amount">Amount :</string>
+    <string name="_9422157897">9422157897</string>
+    <string name="phone_number">Phone Number :</string>
+    <string name="muskangoel_gmail_com">muskangoel@gmail.com</string>
+    <string name="email_address">Email Address :</string>
+    <string name="muskan_goel">Muskan Goel</string>
+    <string name="name">Name :</string>
+    <string name="donate">Donate</string>
+    <string name="welcome_to_the_charity_app">Welcome to the Charity App</string>
+</resources>
